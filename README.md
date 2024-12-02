@@ -12,11 +12,11 @@ This guide provides step-by-step instructions to set up a Python environment for
 
 2. Install Miniconda:
    - Visit [https://www.anaconda.com/download/success](https://www.anaconda.com/download/success).
-   - Scroll down to the **Miniconda Installer** section and download the appropriate version for your operating system.
+   - Scroll down to the **Miniconda Installer** section and download the appropriate version for your operating system(Windows,Mac or Linux).
    - Install Miniconda by following the on-screen instructions.
 
 3. Verify Miniconda Installation:
-   - Open Miniconda (or any terminal with Miniconda added to the PATH).
+   - Open Miniconda ~(or any terminal with Miniconda added to the PATH)~.
    - Type the following command to verify the installation:
      ```bash
      conda --version
@@ -38,7 +38,7 @@ This guide provides step-by-step instructions to set up a Python environment for
    - Make sure you are in the `(workshop_env)` environment.
    - Run the following command to install the required libraries:
      ```bash
-     pip install numpy pandas matplotlib scikit-learn keras jupyter
+     pip install numpy pandas matplotlib scikit-learn jupyter
      ```
 
 6. (Optional) Configure VSCode:
@@ -47,7 +47,7 @@ This guide provides step-by-step instructions to set up a Python environment for
      - **Python**
      - **Code Runner**
    - Open a folder in VSCode where you'd like to work.
-   - Create a file named `test.ipynb`.
+   - Create a file named `test.ipynb`. (it is essential you add the ".ipynb" yourself)
    - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) to open the command palette.
    - Search for and select **"Python: Select Interpreter"**.
    - Select the interpreter with the name of your environment (`workshop_env`).
