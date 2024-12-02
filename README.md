@@ -7,12 +7,26 @@ This guide provides step-by-step instructions to set up a Python environment for
 
 ## Steps to Set Up the Environment
 
-1. Install Python:
+1. **Check if Python is Installed:**
+   - Open a terminal or Command Prompt.
+   - Type the following command to check if Python is installed:
+     ```bash
+     python --version
+     ```
+     or
+     ```bash
+     python3 --version
+     ```
+   - If Python is installed and the version is **3.10 or higher**, skip to Step 3 (Install Miniconda).
+   - If Python is **not installed** or the version is lower than 3.10, proceed to install Python.
+
+2. **Install Python (if required):**
    - Download Python from the official website: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+   - Follow the installation instructions, ensuring to check the **"Add Python to PATH"** option during setup.
 
 2. Install Miniconda:
    - Visit [https://www.anaconda.com/download/success](https://www.anaconda.com/download/success).
-   - Scroll down to the **Miniconda Installer** section and download the appropriate version for your operating system(Windows,Mac or Linux).
+   - ***Scroll down*** to the **Miniconda Installer** section and download the appropriate version for your operating system(Windows,Mac or Linux).
    - Install Miniconda by following the on-screen instructions.
 
 3. Verify Miniconda Installation:
@@ -41,8 +55,8 @@ This guide provides step-by-step instructions to set up a Python environment for
      pip install numpy pandas matplotlib scikit-learn jupyter
      ```
 
-6. (Optional) Configure VSCode:
-   - Download and install [Visual Studio Code (VSCode)](https://code.visualstudio.com/).
+6. Configure VSCode:
+   - Download and install [Visual Studio Code (VSCode)](https://code.visualstudio.com/). (Unless already installed)
    - Install the following VSCode extensions:
      - **Python**
      - **Code Runner**
