@@ -68,13 +68,15 @@ This guide provides step-by-step instructions to set up a Python environment for
    - Run a cell in the notebook. When prompted to install the Jupyter kernel, click **Install**.
 
 7. Test Your Setup:
-   - In your `test.ipynb` file, try running the following Python commands:
+   - In your `test.ipynb` file, copy and paste the following Python commands:
      ```python
      import numpy as np
      import pandas as pd
+     import matplotlib
      import matplotlib.pyplot as plt
+     print(np.__version__, pd.__version__, matplotlib.__version__, sep='\n')
      ```
-   - If no errors occur, your setup is complete and ready for the workshop!
+   - If no errors occur your setup is complete and ready for the workshop!
 
 ---
 
