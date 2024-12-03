@@ -35,7 +35,7 @@ This guide provides step-by-step instructions to set up a Python environment for
 
 
 3. Verify Miniconda Installation:
-   - Open Anaconda Prompt(miniconda3). 
+   - Go to Windows search. Open Anaconda Prompt(miniconda3).
    - Type the following command to verify the installation:
      ```bash
      conda --version
