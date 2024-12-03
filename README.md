@@ -1,7 +1,9 @@
 
 # Workshop Environment Setup Guide
 
-This guide provides step-by-step instructions to set up a Python environment for the workshop using Miniconda and Jupyter Notebook. Follow each step carefully to ensure everything is installed and configured correctly.
+This guide provides step-by-step instructions to set up a Python environment for the workshop using Miniconda and Jupyter Notebook. 
+
+***Follow each step carefully before proceeding to the next to ensure everything is installed and configured correctly.***
 
 ---
 
@@ -27,10 +29,12 @@ This guide provides step-by-step instructions to set up a Python environment for
 2. Install Miniconda:
    - Visit [https://www.anaconda.com/download/success](https://www.anaconda.com/download/success).
    - ***Scroll down*** to the **Miniconda Installer** section and download the appropriate version for your operating system(Windows,Mac or Linux).
-   - Install Miniconda by following the on-screen instructions.
+   - Install Miniconda by following the on-screen instructions. (Leave the boxes UNCHECKED as shown below)
+    ![1miniconda](https://github.com/user-attachments/assets/b4165917-f48c-43d5-abbd-dc2389388351)
+
 
 3. Verify Miniconda Installation:
-   - Open Miniconda.
+   - Open Anaconda Prompt(miniconda3). 
    - Type the following command to verify the installation:
      ```bash
      conda --version
@@ -38,10 +42,11 @@ This guide provides step-by-step instructions to set up a Python environment for
    - If this shows the Conda version, proceed to the next step. If not, make sure you implemented above steps correctly.
 
 4. Create and Activate the Workshop Environment:
-   - Run the following command to create a new Conda environment:
+   - Run the following command to create a new Conda environment: (Copy it as it is, don't worry about the python version)
      ```bash
      conda create -n workshop_env python=3.10
      ```
+   - Enter "y" to proceed when prompted to proceed.
    - Activate the environment:
      ```bash
      conda activate workshop_env
@@ -54,18 +59,22 @@ This guide provides step-by-step instructions to set up a Python environment for
      ```bash
      pip install numpy pandas matplotlib scikit-learn jupyter
      ```
+   - This may take a couple minutes...do not close the window till installation is fully complete, as shown below.
+     ![IMG-20241203-WA0024 1](https://github.com/user-attachments/assets/84d1221f-15d3-4606-831b-f3d4d448b5a8)
+
+ 
 
 6. Configure VSCode:
    - Download and install [Visual Studio Code (VSCode)](https://code.visualstudio.com/). (Unless already installed)
    - Install the following VSCode extensions:
      - **Python**
      - **Code Runner**
-   - Open a folder in VSCode where you'd like to work.
-   - Create a file named `test.ipynb`. (it is essential you add the ".ipynb" yourself)
+   - Open a folder in VSCode where you'd like to work. In the top left corenr in VScode: File>Open Folder. Then 
+   - Create a file inside the folder named `test.ipynb`. (it is essential you add the ".ipynb" yourself)
    - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) to open the command palette.
    - Search for and select **"Python: Select Interpreter"**.
    - Select the interpreter with the name of your environment (`workshop_env`).
-   - Run a cell in the notebook. When prompted to install the Jupyter kernel, click **Install**.
+   - Run an empty cell in the notebook. When prompted to install the Jupyter kernel, click **Install**.
 
 7. Test Your Setup:
    - In your `test.ipynb` file, copy and paste the following Python commands:
@@ -75,7 +84,7 @@ This guide provides step-by-step instructions to set up a Python environment for
      import matplotlib
      import matplotlib.pyplot as plt
      print(np.__version__, pd.__version__, matplotlib.__version__, sep='\n')
-     ```
+     ``` 
    - If no errors occur your setup is complete and ready for the workshop!
 
 ---
