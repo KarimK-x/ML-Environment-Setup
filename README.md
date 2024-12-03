@@ -27,8 +27,9 @@ This guide provides step-by-step instructions to set up a Python environment for
    - Follow the installation instructions, ensuring to check the **"Add Python to PATH"** option during setup.
 
 2. Install Miniconda:
-   - Visit [https://www.anaconda.com/download/success](https://www.anaconda.com/download/success).
+   - Visit [https://www.anaconda.com/download/success](https://www.anaconda.com/download/success).DON'T click the first download button you see.
    - ***Scroll down*** to the **Miniconda Installer** section and download the appropriate version for your operating system(Windows,Mac or Linux).
+   - It should be around 80MB.
    - Install Miniconda by following the on-screen instructions. (Leave the boxes UNCHECKED as shown below)
     ![1miniconda](https://github.com/user-attachments/assets/b4165917-f48c-43d5-abbd-dc2389388351)
 
