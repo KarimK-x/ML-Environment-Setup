@@ -30,7 +30,7 @@ This guide provides step-by-step instructions to set up a Python environment for
    - Install Miniconda by following the on-screen instructions.
 
 3. Verify Miniconda Installation:
-   - Open Miniconda ~(or any terminal with Miniconda added to the PATH)~.
+   - Open Miniconda.
    - Type the following command to verify the installation:
      ```bash
      conda --version
