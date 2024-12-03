@@ -70,7 +70,7 @@ This guide provides step-by-step instructions to set up a Python environment for
    - Install the following VSCode extensions:
      - **Python**
      - **Code Runner**
-   - Open a folder in VSCode where you'd like to work. In the top left corenr in VScode: File>Open Folder. Then 
+   - Open a folder in VSCode where you'd like to work. In the top left corner in VScode: File>Open Folder. 
    - Create a file inside the folder named `test.ipynb`. (it is essential you add the ".ipynb" yourself)
    - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) to open the command palette.
    - Search for and select **"Python: Select Interpreter"**.
